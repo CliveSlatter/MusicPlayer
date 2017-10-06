@@ -32,7 +32,7 @@ public class Main extends Application {
         TableColumn trackArtist = new TableColumn("Artist");
         TableColumn trackDuration = new TableColumn("Duration");
         tableView.getColumns().addAll(trackId,trackTitle,trackArtist,trackDuration);
-        root.setCenter(table);
+        root.setCenter(tableView);
         stage.setTitle("Music Player");
         stage.setScene(scene);
         stage.show();
